@@ -3,8 +3,8 @@ import { useState } from 'react'
 
 function App() {
   const [filterInput, setFilterInput] = useState('');
-  const [userList, setUserList] = useState(['Pedro', 'Paco', 'Manolo', 'Daniel', 'Luis', 'Jose', 'Francisco', 'Isabel', 'Carrasco', 'Enmanuel', 'Maluma', 'Maria', 'Pilar', 'Sanchez'])
-  const [ogUserList, setOgUserList] = useState(['Pedro', 'Paco', 'Manolo', 'Daniel', 'Luis', 'Jose', 'Francisco', 'Isabel', 'Carrasco', 'Enmanuel', 'Maluma', 'Maria', 'Pilar', 'Sanchez'])
+  const [userList, setUserList] = useState(['Pedro', 'Paco', 'Manolo', 'Daniel', 'Luis', 'Jose', 'Francisco', 'Isabel', 'Carrasco', 'Enmanuel', 'Maria', 'Pilar'])
+  const [ogUserList, setOgUserList] = useState(['Pedro', 'Paco', 'Manolo', 'Daniel', 'Luis', 'Jose', 'Francisco', 'Isabel', 'Carrasco', 'Enmanuel', 'Maria', 'Pilar'])
 
   const filter = () => {
     const tempUserList =  [ ...ogUserList]
